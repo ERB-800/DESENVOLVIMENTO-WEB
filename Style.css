@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+html {
+    font-family: 'Climate Crisis', sans-serif;
+}
+
 body {
-    background-color: #cccccc;
+    background-color: blue;
 }
 h1 {
     color: #0000ffaa;
@@ -59,12 +65,27 @@ section {
     margin: 15px auto;
 }
 article {
-    background-color: #000000;
+    background-color: #ffffff;
     width: 380px;
-    border-radius:  4px;
+    border-radius: 4px;
     box-shadow: 2px 2px 1px #303030;
     position: relative;
     float: left;
     margin: 5px;
 
 }
+
+
+/* FRAME WORK*/
+
+.cf-branco   {color: #ffffff;}
+.cf-preto    {color: #000000;}
+.cf-vermelho {color: #ff0000;}
+.cf-verde    {color: #00ff00;}
+.cf-azul     {color: #0000ff;}
+
+.cb-branco   {background-color: #ffffff;}
+.cb-preto    {background-color: #000000;}
+.cb-vermelho {background-color: #ff0000;}
+.cb-verde    {background-color: #00ff00;}
+.cb-azul     {background-color: #0000ff;}
